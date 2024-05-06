@@ -5,7 +5,8 @@ html,body{
     height: 100%;
     font-family: candara;
     background-color: rgb(0, 60, 83);
-    color: aliceblue;
+    color: black;
+    
 }
 
 header{
@@ -14,6 +15,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: aliceblue;
+   
 }
 
 header img{
@@ -33,7 +36,7 @@ header button{
     color: black;
     font-family: candara;
     border-radius: 5px;
-    box-shadow:0 0 0.8em red;
+    box-shadow:0 0 1em rgb(0, 60, 83);
 }
 
 .apresentacao{
@@ -72,7 +75,7 @@ header button{
     margin:0;
     margin-left: 30px;
     font-size: 3em;
-    color: rgb(148, 148, 148);
+    color: aliceblue;
     padding:0; 
 }
 
@@ -163,5 +166,89 @@ header button{
     font-size: 2.2em;
     color: rgb(0, 60, 83);
 }
+
+.pgcontato{
+    margin:0;
+    width: 100%;
+    height: 55%;
+    padding: 15px;
+    font-size: 2em;
+    background-color:  rgb(0, 60, 83);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+
+.pgcontato form {
+    display: flex;
+    flex-direction: column;
+    
+    
+     
+}
+
+.pgcontato input{
+    width: 55%;
+    background-color: transparent;
+    margin-top: 1vw;
+    border-radius: 5px;
+    border: black solid;
+    box-shadow: 0 0 0.8em red;
+}
+
+::placeholder{
+    color: white;
+}
+
+
+
+
+.pgcontato article h1{
+    font-size: 1,5em;
+    color: aliceblue;
+    
+    
+    
+
+}
+
+
+
+
+
+.botoe{
+    padding: 5px;
+    border:0;
+    color: black;
+    font-family: candara;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    height: 300px;
+    transition-duration: 0.5s;
+}
+
+
+   
+.botoe button:hover{
+    background-color: grey;
+    font-size: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 0.8em red;
+    transition-duration: 0.5s;
+}
+
+    
+
+
+    
+
+
 
     
